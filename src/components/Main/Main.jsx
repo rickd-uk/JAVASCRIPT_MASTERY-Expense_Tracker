@@ -18,7 +18,8 @@ const Main = () => {
 
   return (
     <Card className={classes.root}>
-      <CardHeader title='Expense Tracker' subheader='Powered by Speechly' />
+      {/* subheader='Powered by Speechly */}
+      <CardHeader title='Expense Tracker' />
 
       <CardContent>
         <Typography align='center' variant='h5'>
